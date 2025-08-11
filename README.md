@@ -53,9 +53,9 @@ Xây dựng mô hình học máy để **dự báo giá xe ô tô** dựa trên 
 - Kết quả RMSE trên tập test
 | Mô hình         | All Features     | Best Features    |
 |----------------|------------------|------------------|
-| Random Forest  | 126597 | 125442 |
-| XGBoost        | 112356      | 137937          |
-| LightGBM       | 109571          | 104126      |
+| Random Forest  | 126597           |     125442       |
+| XGBoost        | 112356           | 137937           |
+| LightGBM       | 109571           | 104126          |
 
 - **LightGBM** hiệu quả hơn khi train với best features, **XGBoost** hiệu quả hơn khi train với all features.
 - **LightGBM** cho RMSE nhỏ nhất ở cả 2 trường hợp.
