@@ -62,7 +62,7 @@ Xây dựng mô hình học máy để **dự báo giá xe ô tô** dựa trên 
 - **LightGBM** cho RMSE nhỏ nhất ở cả 2 trường hợp.
 - **XGBoost** và **LightGBM** được chọn để huấn luyện lại trên toàn bộ dữ liệu.
 - Sử dụng hai mô hình này để dự đoán giá xe trên bộ dữ liệu thực tế (giá xe bị ẩn đi).
-- **Kaggle đánh giá LGBM cao hơn XGBoost** trên tập test.
+- **Kaggle đánh giá LGBM (RMSE = 116121) cao hơn XGBoost (RMSE = 132651)** trên tập test.
 <img width="1056" height="450" alt="image" src="https://github.com/user-attachments/assets/40df026d-0548-4564-851e-4846a416b9f7" />
 
 
