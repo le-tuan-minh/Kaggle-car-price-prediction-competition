@@ -51,6 +51,7 @@ Xây dựng mô hình học máy để **dự báo giá xe ô tô** dựa trên 
 
 ## ✅ Kết quả chính
 - Kết quả RMSE trên tập test
+
 | Mô hình         | All Features     | Best Features    |
 |----------------|------------------|------------------|
 | Random Forest  | 126597           |     125442       |
