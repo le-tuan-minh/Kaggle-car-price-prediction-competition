@@ -50,15 +50,17 @@ Xây dựng mô hình học máy để **dự báo giá xe ô tô** dựa trên 
 ---
 
 ## ✅ Kết quả chính
-
+- Kết quả RMSE trên tập test
 | Mô hình         | All Features     | Best Features    |
 |----------------|------------------|------------------|
-| Random Forest  | RMSE tương đương | RMSE tương đương |
-| XGBoost        | **Tốt hơn**      | Kém hơn          |
-| LightGBM       | Kém hơn          | **Tốt hơn**      |
+| Random Forest  | 126597 | 125442 |
+| XGBoost        | 112356      | 137937          |
+| LightGBM       | 109571          | 104126      |
 
+- **LightGBM** hiệu quả hơn khi train với best features, **XGBoost** hiệu quả hơn khi train với all features.
+- **LightGBM** cho RMSE nhỏ nhất ở cả 2 trường hợp.
 - **XGBoost** và **LightGBM** được chọn để huấn luyện lại trên toàn bộ dữ liệu.
-- Sử dụng hai mô hình này để dự đoán giá xe trên bộ dữ liệu thực tế (giá bị ẩn).
+- Sử dụng hai mô hình này để dự đoán giá xe trên bộ dữ liệu thực tế (giá xe bị ẩn đi).
 - **Kaggle đánh giá LGBM cao hơn XGBoost** trên tập test.
 
 ---
